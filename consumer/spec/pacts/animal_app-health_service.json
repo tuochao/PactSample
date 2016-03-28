@@ -1,0 +1,69 @@
+{
+  "consumer": {
+    "name": "animal App"
+  },
+  "provider": {
+    "name": "Health Service"
+  },
+  "interactions": [
+    {
+      "description": "a request for cat weight",
+      "provider_state": "cat weight exists",
+      "request": {
+        "method": "get",
+        "path": "/cat",
+        "query": ""
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "cat_weight": {
+            "json_class": "Pact::Term",
+            "data": {
+              "generate": "10kg",
+              "matcher": {
+                "json_class": "Regexp",
+                "o": 0,
+                "s": "\\d+kg"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "description": "a request for rat weight",
+      "provider_state": "rat weight exists",
+      "request": {
+        "method": "get",
+        "path": "/rat",
+        "query": ""
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "rat_weight": {
+            "json_class": "Pact::Term",
+            "data": {
+              "generate": "5kg",
+              "matcher": {
+                "json_class": "Regexp",
+                "o": 0,
+                "s": "\\d+kg"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecificationVersion": "1.0.0"
+  }
+}

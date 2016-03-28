@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+gem "rake"
+gem "rspec"
+gem "pact"
+gem "httparty"
+gem "sinatra"
+gem "pact_broker"

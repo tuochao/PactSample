@@ -1,0 +1,186 @@
+I, [2016-03-23T17:54:21.353598 #31330]  INFO -- : Cleared interactions before example "AnimalClient get cat when a cat exists returns a cat"
+I, [2016-03-23T17:54:21.359029 #31330]  INFO -- : Registered expected interaction GET /cat
+D, [2016-03-23T17:54:21.359106 #31330] DEBUG -- : {
+  "description": "a request for a cat",
+  "provider_state": "a cat exists",
+  "request": {
+    "method": "get",
+    "path": "/cat",
+    "query": ""
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "cat_name": "Tom",
+      "age": "8"
+    }
+  }
+}
+I, [2016-03-23T17:54:21.362187 #31330]  INFO -- : Received request GET /cat
+D, [2016-03-23T17:54:21.362246 #31330] DEBUG -- : {
+  "path": "/cat",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:1234",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-03-23T17:54:21.362380 #31330]  INFO -- : Found matching response for GET /cat
+D, [2016-03-23T17:54:21.362464 #31330] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "cat_name": "Tom",
+    "age": "8"
+  }
+}
+I, [2016-03-23T17:54:21.368595 #31330]  INFO -- : Verifying - interactions matched for example "AnimalClient get cat when a cat exists returns a cat"
+I, [2016-03-23T17:54:21.374459 #31330]  INFO -- : Cleared interactions before example "AnimalClient get cat when animal type isn't specified returns error message"
+I, [2016-03-23T17:54:21.380021 #31330]  INFO -- : Registered expected interaction GET /
+D, [2016-03-23T17:54:21.380093 #31330] DEBUG -- : {
+  "description": "a request for a cat",
+  "provider_state": "a cat does not exist",
+  "request": {
+    "method": "get",
+    "path": ""
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+    },
+    "body": {
+      "error": "Request failed!"
+    }
+  }
+}
+I, [2016-03-23T17:54:21.383644 #31330]  INFO -- : Received request GET /
+D, [2016-03-23T17:54:21.383711 #31330] DEBUG -- : {
+  "path": "/",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:1234",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-03-23T17:54:21.383806 #31330]  INFO -- : Found matching response for GET /
+D, [2016-03-23T17:54:21.383847 #31330] DEBUG -- : {
+  "status": 404,
+  "headers": {
+  },
+  "body": {
+    "error": "Request failed!"
+  }
+}
+I, [2016-03-23T17:54:21.388087 #31330]  INFO -- : Verifying - interactions matched for example "AnimalClient get cat when animal type isn't specified returns error message"
+I, [2016-03-23T17:54:21.394938 #31330]  INFO -- : Cleared interactions before example "HealthClient get_cat_weight when cat weight exists returns cat weight"
+I, [2016-03-23T17:54:21.414341 #31330]  INFO -- : Verifying - interactions matched for example "HealthClient get_cat_weight when cat weight exists returns cat weight"
+I, [2016-03-23T17:54:21.421992 #31330]  INFO -- : Cleared interactions before example "AnimalClient get rat when a rat exists returns a rat"
+I, [2016-03-23T17:54:21.426515 #31330]  INFO -- : Registered expected interaction GET /rat
+D, [2016-03-23T17:54:21.426639 #31330] DEBUG -- : {
+  "description": "a request for a rat",
+  "provider_state": "a rat exists",
+  "request": {
+    "method": "get",
+    "path": "/rat",
+    "query": ""
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "rat_name": "Jerry",
+      "age": "8"
+    }
+  }
+}
+I, [2016-03-23T17:54:21.429878 #31330]  INFO -- : Received request GET /rat
+D, [2016-03-23T17:54:21.429949 #31330] DEBUG -- : {
+  "path": "/rat",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:1234",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-03-23T17:54:21.430081 #31330]  INFO -- : Found matching response for GET /rat
+D, [2016-03-23T17:54:21.430132 #31330] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "rat_name": "Jerry",
+    "age": "8"
+  }
+}
+I, [2016-03-23T17:54:21.432520 #31330]  INFO -- : Verifying - interactions matched for example "AnimalClient get rat when a rat exists returns a rat"
+I, [2016-03-23T17:54:21.437059 #31330]  INFO -- : Cleared interactions before example "AnimalClient get rat when animal type isn't specified returns error message"
+I, [2016-03-23T17:54:21.441518 #31330]  INFO -- : Registered expected interaction GET /
+D, [2016-03-23T17:54:21.441585 #31330] DEBUG -- : {
+  "description": "a request for a rat",
+  "provider_state": "a rat does not exist",
+  "request": {
+    "method": "get",
+    "path": ""
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "error": "Request failed!"
+    }
+  }
+}
+I, [2016-03-23T17:54:21.444086 #31330]  INFO -- : Received request GET /
+D, [2016-03-23T17:54:21.444147 #31330] DEBUG -- : {
+  "path": "/",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:1234",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-03-23T17:54:21.444296 #31330]  INFO -- : Found matching response for GET /
+D, [2016-03-23T17:54:21.444346 #31330] DEBUG -- : {
+  "status": 404,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "error": "Request failed!"
+  }
+}
+I, [2016-03-23T17:54:21.446347 #31330]  INFO -- : Verifying - interactions matched for example "AnimalClient get rat when animal type isn't specified returns error message"
+I, [2016-03-23T17:54:21.451057 #31330]  INFO -- : Cleared interactions before example "HealthClient get_rat_weight when rat weight exists returns rat weight"
+I, [2016-03-23T17:54:21.464113 #31330]  INFO -- : Verifying - interactions matched for example "HealthClient get_rat_weight when rat weight exists returns rat weight"
+I, [2016-03-23T17:54:21.468491 #31330]  INFO -- : Writing pact with details {:consumer=>{:name=>"animal App"}, :provider=>{:name=>"Animal Service"}, :pactfile_write_mode=>"overwrite", :pact_dir=>"/Users/ctuo/RubymineProjects/PactSamle/consumer/spec/pacts"}
+I, [2016-03-23T17:54:21.468553 #31330]  INFO -- : Writing pact for Animal Service to /Users/ctuo/RubymineProjects/PactSamle/consumer/spec/pacts/animal_app-animal_service.json

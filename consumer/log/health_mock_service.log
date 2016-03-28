@@ -1,0 +1,200 @@
+I, [2016-03-23T17:54:21.355826 #31330]  INFO -- : Cleared interactions before example "AnimalClient get cat when a cat exists returns a cat"
+I, [2016-03-23T17:54:21.371040 #31330]  INFO -- : Verifying - interactions matched for example "AnimalClient get cat when a cat exists returns a cat"
+I, [2016-03-23T17:54:21.377047 #31330]  INFO -- : Cleared interactions before example "AnimalClient get cat when animal type isn't specified returns error message"
+I, [2016-03-23T17:54:21.391167 #31330]  INFO -- : Verifying - interactions matched for example "AnimalClient get cat when animal type isn't specified returns error message"
+I, [2016-03-23T17:54:21.397736 #31330]  INFO -- : Cleared interactions before example "HealthClient get_cat_weight when cat weight exists returns cat weight"
+I, [2016-03-23T17:54:21.401313 #31330]  INFO -- : Registered expected interaction GET /cat
+D, [2016-03-23T17:54:21.401453 #31330] DEBUG -- : {
+  "description": "a request for cat weight",
+  "provider_state": "cat weight exists",
+  "request": {
+    "method": "get",
+    "path": "/cat",
+    "query": ""
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "cat_weight": {
+        "json_class": "Pact::Term",
+        "data": {
+          "generate": "10kg",
+          "matcher": {"json_class":"Regexp","o":0,"s":"\\d+kg"}
+        }
+      }
+    }
+  }
+}
+I, [2016-03-23T17:54:21.407070 #31330]  INFO -- : Received request GET /cat
+D, [2016-03-23T17:54:21.407337 #31330] DEBUG -- : {
+  "path": "/cat",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:2345",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-03-23T17:54:21.407483 #31330]  INFO -- : Found matching response for GET /cat
+D, [2016-03-23T17:54:21.407565 #31330] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "cat_weight": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "10kg",
+        "matcher": {
+          "json_class": "Regexp",
+          "o": 0,
+          "s": "\\d+kg"
+        }
+      }
+    }
+  }
+}
+I, [2016-03-23T17:54:21.411020 #31330]  INFO -- : Received request GET /cat
+D, [2016-03-23T17:54:21.411079 #31330] DEBUG -- : {
+  "path": "/cat",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:2345",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-03-23T17:54:21.411160 #31330]  INFO -- : Found matching response for GET /cat
+D, [2016-03-23T17:54:21.411231 #31330] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "cat_weight": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "10kg",
+        "matcher": {
+          "json_class": "Regexp",
+          "o": 0,
+          "s": "\\d+kg"
+        }
+      }
+    }
+  }
+}
+I, [2016-03-23T17:54:21.417225 #31330]  INFO -- : Verifying - interactions matched for example "HealthClient get_cat_weight when cat weight exists returns cat weight"
+I, [2016-03-23T17:54:21.424235 #31330]  INFO -- : Cleared interactions before example "AnimalClient get rat when a rat exists returns a rat"
+I, [2016-03-23T17:54:21.434534 #31330]  INFO -- : Verifying - interactions matched for example "AnimalClient get rat when a rat exists returns a rat"
+I, [2016-03-23T17:54:21.439273 #31330]  INFO -- : Cleared interactions before example "AnimalClient get rat when animal type isn't specified returns error message"
+I, [2016-03-23T17:54:21.448408 #31330]  INFO -- : Verifying - interactions matched for example "AnimalClient get rat when animal type isn't specified returns error message"
+I, [2016-03-23T17:54:21.453339 #31330]  INFO -- : Cleared interactions before example "HealthClient get_rat_weight when rat weight exists returns rat weight"
+I, [2016-03-23T17:54:21.455632 #31330]  INFO -- : Registered expected interaction GET /rat
+D, [2016-03-23T17:54:21.455736 #31330] DEBUG -- : {
+  "description": "a request for rat weight",
+  "provider_state": "rat weight exists",
+  "request": {
+    "method": "get",
+    "path": "/rat",
+    "query": ""
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "rat_weight": {
+        "json_class": "Pact::Term",
+        "data": {
+          "generate": "5kg",
+          "matcher": {"json_class":"Regexp","o":0,"s":"\\d+kg"}
+        }
+      }
+    }
+  }
+}
+I, [2016-03-23T17:54:21.458613 #31330]  INFO -- : Received request GET /rat
+D, [2016-03-23T17:54:21.458706 #31330] DEBUG -- : {
+  "path": "/rat",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:2345",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-03-23T17:54:21.458805 #31330]  INFO -- : Found matching response for GET /rat
+D, [2016-03-23T17:54:21.458895 #31330] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "rat_weight": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "5kg",
+        "matcher": {
+          "json_class": "Regexp",
+          "o": 0,
+          "s": "\\d+kg"
+        }
+      }
+    }
+  }
+}
+I, [2016-03-23T17:54:21.461711 #31330]  INFO -- : Received request GET /rat
+D, [2016-03-23T17:54:21.461777 #31330] DEBUG -- : {
+  "path": "/rat",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept-Encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+    "Accept": "*/*",
+    "User-Agent": "Ruby",
+    "Connection": "close",
+    "Host": "localhost:2345",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-03-23T17:54:21.461875 #31330]  INFO -- : Found matching response for GET /rat
+D, [2016-03-23T17:54:21.461942 #31330] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "rat_weight": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "5kg",
+        "matcher": {
+          "json_class": "Regexp",
+          "o": 0,
+          "s": "\\d+kg"
+        }
+      }
+    }
+  }
+}
+I, [2016-03-23T17:54:21.466175 #31330]  INFO -- : Verifying - interactions matched for example "HealthClient get_rat_weight when rat weight exists returns rat weight"
+I, [2016-03-23T17:54:21.471223 #31330]  INFO -- : Writing pact with details {:consumer=>{:name=>"animal App"}, :provider=>{:name=>"Health Service"}, :pactfile_write_mode=>"overwrite", :pact_dir=>"/Users/ctuo/RubymineProjects/PactSamle/consumer/spec/pacts"}
+I, [2016-03-23T17:54:21.471283 #31330]  INFO -- : Writing pact for Health Service to /Users/ctuo/RubymineProjects/PactSamle/consumer/spec/pacts/animal_app-health_service.json

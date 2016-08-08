@@ -32,9 +32,9 @@ describe AnimalClient, :pact => true do
                     'age': '8'
                 })
       end
-      it "returns a rat" do
-        expect(animal_service_client.get_rat).to eq(Rat.new('Jerry'))
-      end
+      # it "returns a rat" do
+      #   expect(animal_service_client.get_rat).to eq(Rat.new('Jerry'))
+      # end
     end
 
     context "when animal type isn't specified" do
@@ -47,9 +47,9 @@ describe AnimalClient, :pact => true do
                 headers: {'Content-Type' => 'application/json'},
                 body: {'error': 'Request failed!'})
       end
-      it "returns error message" do
-        expect(animal_service_client.get_failed).to eq("Request failed!")
-      end
+      # it "returns error message" do
+      #   expect(animal_service_client.get_failed).to eq("Request failed!")
+      # end
     end
 
   end
@@ -80,12 +80,12 @@ describe HealthClient, :pact => true do
                     )} )
       end
 
-      it "returns rat weight" do
-        jerry = Rat.new('Jerry')
-        jerry.weight = '5kg'
-        puts subject.get_weight('/rat')
-        expect(health_service_client.get_weight('/rat')).to eq(jerry.weight)
-      end
+      # it "returns rat weight" do
+      #   jerry = Rat.new('Jerry')
+      #   jerry.weight = '5kg'
+      #   puts subject.get_weight('/rat')
+      #   expect(health_service_client.get_weight('/rat')).to eq(jerry.weight)
+      # end
     end
 
   end

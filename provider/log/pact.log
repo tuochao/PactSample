@@ -3014,3 +3014,8 @@ I, [2016-03-23T16:36:59.450253 #31028]  INFO -- : Sending GET request to path: "
 D, [2016-03-23T16:36:59.450271 #31028] DEBUG -- : body :
 I, [2016-03-23T16:36:59.451697 #31028]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Content-Length"=>"86", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
 D, [2016-03-23T16:36:59.451722 #31028] DEBUG -- : body: {"cat_name":"Tom","rat_name":"Jerry","cat_weight":"10kg","rat_weight":"5kg","age":"8"}
+I, [2016-03-28T18:25:13.498591 #1973]  INFO -- : Running example 'Verifying a pact between animal App and Animal Service Given a cat exists a request for a cat with GET /cat returns a response which has status code 200'
+I, [2016-03-28T18:25:13.499021 #1973]  INFO -- : Sending GET request to path: "/cat" with headers: {}, see debug logs for body
+D, [2016-03-28T18:25:13.499068 #1973] DEBUG -- : body :
+I, [2016-03-28T18:25:13.519229 #1973]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Content-Length"=>"86", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2016-03-28T18:25:13.519285 #1973] DEBUG -- : body: {"cat_name":"Tom","rat_name":"Jerry","cat_weight":"10kg","rat_weight":"5kg","age":"8"}

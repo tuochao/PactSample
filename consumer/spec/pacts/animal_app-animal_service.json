@@ -40,42 +40,6 @@
           "error": "Request failed!"
         }
       }
-    },
-    {
-      "description": "a request for a rat",
-      "provider_state": "a rat exists",
-      "request": {
-        "method": "get",
-        "path": "/rat",
-        "query": ""
-      },
-      "response": {
-        "status": 200,
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "body": {
-          "rat_name": "Jerry",
-          "age": "8"
-        }
-      }
-    },
-    {
-      "description": "a request for a rat",
-      "provider_state": "a rat does not exist",
-      "request": {
-        "method": "get",
-        "path": ""
-      },
-      "response": {
-        "status": 404,
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "body": {
-          "error": "Request failed!"
-        }
-      }
     }
   ],
   "metadata": {

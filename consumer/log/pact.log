@@ -1525,3 +1525,75 @@ I, [2016-03-23T17:54:21.449280 #31330]  INFO -- : Clearing all expectations
 I, [2016-03-23T17:54:21.462357 #31330]  INFO -- : Verifying interactions for HealthClient get_rat_weight when rat weight exists returns rat weight
 D, [2016-03-23T17:54:21.472203 #31330] DEBUG -- : Supposed to be stopping
 D, [2016-03-23T17:54:21.472234 #31330] DEBUG -- : Supposed to be stopping
+I, [2016-03-28T18:23:21.939389 #1886]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x007ff60d5330a8> on port 1234...
+I, [2016-03-28T18:23:22.262731 #1886]  INFO -- : Started on port 1234
+I, [2016-03-28T18:23:22.262801 #1886]  INFO -- : Starting app Health Service #<Pact::MockService::App:0x007ff60d4e0740> on port 2345...
+I, [2016-03-28T18:23:22.268898 #1886]  INFO -- : Started on port 2345
+I, [2016-03-28T18:23:22.269914 #1886]  INFO -- : Clearing all expectations
+I, [2016-03-28T18:23:22.287456 #1886]  INFO -- : Verifying interactions for AnimalClient get cat when a cat exists returns a cat
+D, [2016-03-28T18:23:22.302630 #1886] DEBUG -- : Supposed to be stopping
+D, [2016-03-28T18:23:22.302658 #1886] DEBUG -- : Supposed to be stopping
+I, [2016-04-29T11:51:33.844137 #1014]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x007ffbda2de2f8> on port 1234...
+I, [2016-04-29T11:51:34.166320 #1014]  INFO -- : Started on port 1234
+I, [2016-04-29T11:51:34.166386 #1014]  INFO -- : Starting app Health Service #<Pact::MockService::App:0x007ffbda28cb60> on port 2345...
+I, [2016-04-29T11:51:34.169826 #1014]  INFO -- : Started on port 2345
+I, [2016-04-29T11:51:34.170754 #1014]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:51:34.184338 #1014]  INFO -- : Verifying interactions for AnimalClient get cat when a cat exists returns a cat
+I, [2016-04-29T11:51:34.189348 #1014]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:51:34.202511 #1014]  INFO -- : Verifying interactions for AnimalClient get cat when animal type isn't specified returns error message
+I, [2016-04-29T11:51:34.209407 #1014]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:51:34.225310 #1014]  INFO -- : Verifying interactions for HealthClient get_cat_weight when cat weight exists returns cat weight
+D, [2016-04-29T11:51:34.236626 #1014] DEBUG -- : Supposed to be stopping
+D, [2016-04-29T11:51:34.236659 #1014] DEBUG -- : Supposed to be stopping
+I, [2016-04-29T11:52:28.968215 #1024]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x007fcc6c241590> on port 1234...
+I, [2016-04-29T11:52:29.080993 #1024]  INFO -- : Started on port 1234
+I, [2016-04-29T11:52:29.081052 #1024]  INFO -- : Starting app Health Service #<Pact::MockService::App:0x007fcc6c1e2568> on port 2345...
+I, [2016-04-29T11:52:29.189487 #1024]  INFO -- : Started on port 2345
+I, [2016-04-29T11:52:29.190504 #1024]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:52:29.199130 #1024]  INFO -- : Verifying interactions for AnimalClient get rat when a rat exists returns a rat
+D, [2016-04-29T11:52:29.207896 #1024] DEBUG -- : Supposed to be stopping
+D, [2016-04-29T11:52:29.207947 #1024] DEBUG -- : Supposed to be stopping
+I, [2016-04-29T11:53:46.672727 #1031]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x007f8ddd9884c0> on port 1234...
+I, [2016-04-29T11:53:46.994470 #1031]  INFO -- : Started on port 1234
+I, [2016-04-29T11:53:46.994539 #1031]  INFO -- : Starting app Health Service #<Pact::MockService::App:0x007f8ddd928c00> on port 2345...
+I, [2016-04-29T11:53:46.997690 #1031]  INFO -- : Started on port 2345
+I, [2016-04-29T11:53:46.998433 #1031]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:53:47.013050 #1031]  INFO -- : Verifying interactions for AnimalClient get cat when a cat exists returns a cat
+I, [2016-04-29T11:53:47.018385 #1031]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:53:47.030522 #1031]  INFO -- : Verifying interactions for AnimalClient get cat when animal type isn't specified returns error message
+I, [2016-04-29T11:53:47.035372 #1031]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:53:47.051491 #1031]  INFO -- : Verifying interactions for HealthClient get_cat_weight when cat weight exists returns cat weight
+D, [2016-04-29T11:53:47.065374 #1031] DEBUG -- : Supposed to be stopping
+D, [2016-04-29T11:53:47.065400 #1031] DEBUG -- : Supposed to be stopping
+I, [2016-04-29T11:54:22.209360 #1039]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x007ffbbc26a740> on port 1234...
+I, [2016-04-29T11:54:22.325425 #1039]  INFO -- : Started on port 1234
+I, [2016-04-29T11:54:22.325520 #1039]  INFO -- : Starting app Health Service #<Pact::MockService::App:0x007ffbbc189718> on port 2345...
+I, [2016-04-29T11:54:22.328956 #1039]  INFO -- : Started on port 2345
+I, [2016-04-29T11:54:22.329949 #1039]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:54:22.342245 #1039]  INFO -- : Verifying interactions for AnimalClient get rat when a rat exists returns a rat
+D, [2016-04-29T11:54:22.354844 #1039] DEBUG -- : Supposed to be stopping
+D, [2016-04-29T11:54:22.354869 #1039] DEBUG -- : Supposed to be stopping
+I, [2016-04-29T11:56:16.486369 #1053]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x007ff2540fe7b0> on port 1234...
+I, [2016-04-29T11:56:16.807354 #1053]  INFO -- : Started on port 1234
+I, [2016-04-29T11:56:16.807510 #1053]  INFO -- : Starting app Health Service #<Pact::MockService::App:0x007ff2540aca78> on port 2345...
+I, [2016-04-29T11:56:16.913746 #1053]  INFO -- : Started on port 2345
+I, [2016-04-29T11:56:16.914749 #1053]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:56:16.927473 #1053]  INFO -- : Verifying interactions for AnimalClient get cat when a cat exists returns a cat
+I, [2016-04-29T11:56:16.933388 #1053]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:56:16.945837 #1053]  INFO -- : Verifying interactions for AnimalClient get cat when animal type isn't specified returns error message
+I, [2016-04-29T11:56:16.952473 #1053]  INFO -- : Clearing all expectations
+I, [2016-04-29T11:56:16.969893 #1053]  INFO -- : Verifying interactions for HealthClient get_cat_weight when cat weight exists returns cat weight
+D, [2016-04-29T11:56:16.983335 #1053] DEBUG -- : Supposed to be stopping
+D, [2016-04-29T11:56:16.983367 #1053] DEBUG -- : Supposed to be stopping
+I, [2015-01-01T09:01:58.243696 #932]  INFO -- : Starting app Animal Service #<Pact::MockService::App:0x007fd4e5aa6448> on port 1234...
+I, [2015-01-01T09:01:58.662304 #932]  INFO -- : Started on port 1234
+I, [2015-01-01T09:01:58.662368 #932]  INFO -- : Starting app Health Service #<Pact::MockService::App:0x007fd4e5d55d60> on port 2345...
+I, [2015-01-01T09:01:58.665822 #932]  INFO -- : Started on port 2345
+I, [2015-01-01T09:01:58.666263 #932]  INFO -- : Clearing all expectations
+I, [2015-01-01T09:01:58.679063 #932]  INFO -- : Verifying interactions for AnimalClient get cat when a cat exists returns a cat
+I, [2015-01-01T09:01:58.684518 #932]  INFO -- : Clearing all expectations
+I, [2015-01-01T09:01:58.693624 #932]  INFO -- : Verifying interactions for AnimalClient get cat when animal type isn't specified returns error message
+I, [2015-01-01T09:01:58.698085 #932]  INFO -- : Clearing all expectations
+I, [2015-01-01T09:01:58.710969 #932]  INFO -- : Verifying interactions for HealthClient get_cat_weight when cat weight exists returns cat weight
+D, [2015-01-01T09:01:58.720565 #932] DEBUG -- : Supposed to be stopping
+D, [2015-01-01T09:01:58.720591 #932] DEBUG -- : Supposed to be stopping
